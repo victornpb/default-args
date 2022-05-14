@@ -23,7 +23,7 @@ export default function defaultArgs(defaults, options) {
   function hasOwn(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
 
   if (isObj(options)) for (let prop in defaults) {
-    if (hasOwn(defaults, prop) && hasOwn(options, prop)) {
+    if (hasOwn(defaults, prop) && hasOwn(options, prop) && options[prop] !== undefined) {
       if (isObj(defaults[prop])) defaultArgs(defaults[prop], options[prop]);
       else defaults[prop] = options[prop];
     }
