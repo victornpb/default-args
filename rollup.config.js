@@ -8,7 +8,7 @@ import packageJson from './package.json';
 
 const license = () => S(`
   /*!
-   * ${packageJson.nameFull} v${packageJson.version} (${packageJson.homepage})
+   * ${packageJson.name} v${packageJson.version} (${packageJson.homepage})
    * Copyright (c) ${packageJson.author}
    * @license ${packageJson.license}
    */
@@ -91,6 +91,9 @@ const config = [
               },
               // useBuiltIns: 'usage',
               // corejs: 3,
+              exclude: [
+                '@babel/plugin-transform-typeof-symbol', // not needed for this project
+              ],
             }
           ]
         ],
@@ -139,6 +142,9 @@ const config = [
               },
               // useBuiltIns: 'usage',
               // corejs: 3,
+              exclude: [
+                '@babel/plugin-transform-typeof-symbol', // not needed for this project
+              ],
             }
           ]
         ],
