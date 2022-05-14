@@ -2,19 +2,33 @@
 <!-- badge -->
 [![Version](https://img.shields.io/npm/v/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 [![CodeFactor](https://www.codefactor.io/repository/github/victornpb/defaultoptions/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/defaultoptions)
-[![](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
-[![LICENSE](https://img.shields.io/github/license/victornpb/defaultoptions?style=flat-square)](LICENSE)
-[![Node](https://img.shields.io/node/v/defaultoptions.svg?style=flat-square)](package.json)
-
-[![Coverage Status](https://img.shields.io/coveralls/victornpb/defaultoptions.svg?style=flat-square)](https://coveralls.io/github/victornpb/defaultoptions)
-[![Travis](https://img.shields.io/travis/victornpb/defaultoptions/master.svg?style=flat-square)](https://travis-ci.org/victornpb/defaultoptions)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/victornpb/tiny-dedent?style=flat-square)
+[![bundlephobia](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 
 [![Downloads](https://img.shields.io/npm/dt/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
-[![](https://img.shields.io/tokei/lines/github/victornpb/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![Node](https://img.shields.io/node/v/defaultoptions.svg?style=flat-square)](package.json)
+[![LICENSE](https://img.shields.io/github/license/victornpb/defaultoptions?style=flat-square)](LICENSE)
 <!-- endbadge -->
 
 A simple function for providing default options to arguments. No dependencies, tiny amount of code.
 
+## Usage
+
+```js
+import defaults from 'defaultoptions';
+
+function helloWorld(options) {
+    options = defaults({
+        foo: true,
+        bar: {
+            a: 1,
+            b: 2,
+        },
+    }, options);
+
+    // do something with options
+}
+```
 ## Installation
 
 ### [NPM](https://npmjs.com/package/defaultoptions)
@@ -42,9 +56,6 @@ A simple function for providing default options to arguments. No dependencies, t
 <!-- END -->
 
 
-## Usage
-
-Examples here
 
 ## License
 
