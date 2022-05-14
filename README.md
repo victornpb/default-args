@@ -1,15 +1,15 @@
 # defaultoptions
 <!-- badge -->
+[![Version](https://img.shields.io/npm/v/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![CodeFactor](https://www.codefactor.io/repository/github/victornpb/defaultoptions/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/defaultoptions)
+[![](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 [![LICENSE](https://img.shields.io/github/license/victornpb/defaultoptions?style=flat-square)](LICENSE)
 [![Node](https://img.shields.io/node/v/defaultoptions.svg?style=flat-square)](package.json)
-[![CodeFactor](https://www.codefactor.io/repository/github/victornpb/defaultoptions/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/defaultoptions)
 
 [![Coverage Status](https://img.shields.io/coveralls/victornpb/defaultoptions.svg?style=flat-square)](https://coveralls.io/github/victornpb/defaultoptions)
 [![Travis](https://img.shields.io/travis/victornpb/defaultoptions/master.svg?style=flat-square)](https://travis-ci.org/victornpb/defaultoptions)
 
-[![Version](https://img.shields.io/npm/v/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 [![Downloads](https://img.shields.io/npm/dt/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
-[![](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 [![](https://img.shields.io/tokei/lines/github/victornpb/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 <!-- endbadge -->
 
