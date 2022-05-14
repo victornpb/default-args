@@ -1,24 +1,24 @@
 {
-  "name": "defaultoptions",
-  "nameReadable": "defaultOptions",
+  "name": "default-args",
+  "nameReadable": "default-args",
   "version": "0.0.0",
-  "description": "A simple function for providing default options to arguments. No dependencies, tiny amount of code.",
+  "description": "A simple function for providing defaults to an options argument. No dependencies, tiny amount of code.",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victornpb/defaultoptions.git"
+    "url": "git+https://github.com/victornpb/default-args.git"
   },
   "bugs": {
-    "url": "https://github.com/victornpb/defaultoptions/issues"
+    "url": "https://github.com/victornpb/default-args/issues"
   },
-  "homepage": "https://github.com/victornpb/defaultoptions",
+  "homepage": "https://github.com/victornpb/default-args",
   "author": "victornpb",
-  "main": "dist/defaultoptions.cjs.js",
-  "module": "dist/defaultoptions.esm.js",
-  "unpkg": "dist/defaultoptions.js",
+  "main": "dist/default-args.cjs.js",
+  "module": "dist/default-args.esm.js",
+  "unpkg": "dist/default-args.js",
   "globalVar": "defaults",
   "scripts": {
     "start": "npm run watch",

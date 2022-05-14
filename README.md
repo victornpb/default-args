@@ -1,21 +1,21 @@
-# defaultoptions
+# default-args
 <!-- badge -->
-[![Version](https://img.shields.io/npm/v/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
-[![CodeFactor](https://www.codefactor.io/repository/github/victornpb/defaultoptions/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/defaultoptions)
+[![Version](https://img.shields.io/npm/v/default-args.svg?style=flat-square)](https://www.npmjs.com/package/default-args)
+[![CodeFactor](https://www.codefactor.io/repository/github/victornpb/default-args/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/default-args)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/victornpb/tiny-dedent?style=flat-square)
-[![bundlephobia](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![bundlephobia](https://img.shields.io/bundlephobia/minzip/default-args?style=flat-square)](https://www.npmjs.com/package/default-args)
 
-[![Downloads](https://img.shields.io/npm/dt/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
-[![Node](https://img.shields.io/node/v/defaultoptions.svg?style=flat-square)](package.json)
-[![LICENSE](https://img.shields.io/github/license/victornpb/defaultoptions?style=flat-square)](LICENSE)
+[![Downloads](https://img.shields.io/npm/dt/default-args.svg?style=flat-square)](https://www.npmjs.com/package/default-args)
+[![Node](https://img.shields.io/node/v/default-args.svg?style=flat-square)](package.json)
+[![LICENSE](https://img.shields.io/github/license/victornpb/default-args?style=flat-square)](LICENSE)
 <!-- endbadge -->
 
-A simple function for providing default options to arguments. No dependencies, tiny amount of code.
+A simple function for providing defaults to an options to argument. No dependencies, tiny amount of code.
 
 ## Usage
 
 ```js
-import defaults from 'defaultoptions';
+import defaults from 'default-args';
 
 function helloWorld(options) {
     options = defaults({
@@ -31,27 +31,27 @@ function helloWorld(options) {
 ```
 ## Installation
 
-### [NPM](https://npmjs.com/package/defaultoptions)
+### [NPM](https://npmjs.com/package/default-args)
 
-    npm install defaultoptions
+    npm install default-args
 ### [Yarn](https://github.com/yarnpkg/yarn)
 
-    yarn add defaultoptions
+    yarn add default-args
 
 ### CDN
 
-    <script type="text/javascript" src="https://unpkg.com/defaultoptions/"></script>
+    <script type="text/javascript" src="https://unpkg.com/default-args/"></script>
 
 ## Packages
 
 <!-- Output table (auto generated do not modify) -->
 
-| File                        | Module Type | Transpiled | Source Maps |
-|-----------------------------|-------------|------------|-------------|
-| dist/defaultoptions.esm.mjs | esm         | No         | No          |
-| dist/defaultoptions.cjs.js  | cjs         | Yes        | Yes         |
-| dist/defaultoptions.esm.js  | esm         | Yes        | Yes         |
-| dist/defaultoptions.js      | umd         | Yes        | Yes         |
+| File                      | Module Type | Transpiled | Source Maps |
+|---------------------------|-------------|------------|-------------|
+| dist/default-args.esm.mjs | esm         | No         | No          |
+| dist/default-args.cjs.js  | cjs         | Yes        | Yes         |
+| dist/default-args.esm.js  | esm         | Yes        | Yes         |
+| dist/default-args.js      | umd         | Yes        | Yes         |
 
 <!-- END -->
 
