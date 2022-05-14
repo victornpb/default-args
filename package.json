@@ -2,7 +2,7 @@
   "name": "defaultoptions",
   "nameReadable": "defaultOptions",
   "version": "0.0.0",
-  "description": "A default options library",
+  "description": "A simple function for providing default options to arguments. No dependencies, tiny amount of code.",
   "license": "MIT",
   "engines": {
     "node": ">=6"

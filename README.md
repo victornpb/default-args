@@ -13,7 +13,7 @@
 [![](https://img.shields.io/tokei/lines/github/victornpb/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 <!-- endbadge -->
 
-Headline description
+A simple function for providing default options to arguments. No dependencies, tiny amount of code.
 
 ## Installation
 
