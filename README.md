@@ -1,43 +1,43 @@
-# foo-bar
+# defaultoptions
 <!-- badge -->
-[![LICENSE](https://img.shields.io/github/license/username/foo-bar?style=flat-square)](LICENSE)
-[![Node](https://img.shields.io/node/v/foo-bar.svg?style=flat-square)](package.json)
-[![CodeFactor](https://www.codefactor.io/repository/github/username/foo-bar/badge?style=flat-square)](https://www.codefactor.io/repository/github/username/foo-bar)
+[![LICENSE](https://img.shields.io/github/license/victornpb/defaultoptions?style=flat-square)](LICENSE)
+[![Node](https://img.shields.io/node/v/defaultoptions.svg?style=flat-square)](package.json)
+[![CodeFactor](https://www.codefactor.io/repository/github/victornpb/defaultoptions/badge?style=flat-square)](https://www.codefactor.io/repository/github/victornpb/defaultoptions)
 
-[![Coverage Status](https://img.shields.io/coveralls/username/foo-bar.svg?style=flat-square)](https://coveralls.io/github/username/foo-bar)
-[![Travis](https://img.shields.io/travis/username/foo-bar/master.svg?style=flat-square)](https://travis-ci.org/username/foo-bar)
+[![Coverage Status](https://img.shields.io/coveralls/victornpb/defaultoptions.svg?style=flat-square)](https://coveralls.io/github/victornpb/defaultoptions)
+[![Travis](https://img.shields.io/travis/victornpb/defaultoptions/master.svg?style=flat-square)](https://travis-ci.org/victornpb/defaultoptions)
 
-[![Version](https://img.shields.io/npm/v/foo-bar.svg?style=flat-square)](https://www.npmjs.com/package/foo-bar)
-[![Downloads](https://img.shields.io/npm/dt/foo-bar.svg?style=flat-square)](https://www.npmjs.com/package/foo-bar)
-[![](https://img.shields.io/bundlephobia/minzip/foo-bar?style=flat-square)](https://www.npmjs.com/package/foo-bar)
-[![](https://img.shields.io/tokei/lines/github/username/foo-bar?style=flat-square)](https://www.npmjs.com/package/foo-bar)
+[![Version](https://img.shields.io/npm/v/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![Downloads](https://img.shields.io/npm/dt/defaultoptions.svg?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![](https://img.shields.io/bundlephobia/minzip/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
+[![](https://img.shields.io/tokei/lines/github/victornpb/defaultoptions?style=flat-square)](https://www.npmjs.com/package/defaultoptions)
 <!-- endbadge -->
 
 Headline description
 
 ## Installation
 
-### [NPM](https://npmjs.com/package/foo-bar)
+### [NPM](https://npmjs.com/package/defaultoptions)
 
-    npm install foo-bar
+    npm install defaultoptions
 ### [Yarn](https://github.com/yarnpkg/yarn)
 
-    yarn add foo-bar
+    yarn add defaultoptions
 
 ### CDN
 
-    <script type="text/javascript" src="https://unpkg.com/foo-bar/"></script>
+    <script type="text/javascript" src="https://unpkg.com/defaultoptions/"></script>
 
 ## Packages
 
 <!-- Output table (auto generated do not modify) -->
 
-| File                 | Module Type | Transpiled | Source Maps |
-|----------------------|-------------|------------|-------------|
-| dist/foo-bar.esm.mjs | esm         | No         | No          |
-| dist/foo-bar.cjs.js  | cjs         | Yes        | Yes         |
-| dist/foo-bar.esm.js  | esm         | Yes        | Yes         |
-| dist/foo-bar.js      | umd         | Yes        | Yes         |
+| File                        | Module Type | Transpiled | Source Maps |
+|-----------------------------|-------------|------------|-------------|
+| dist/defaultoptions.esm.mjs | esm         | No         | No          |
+| dist/defaultoptions.cjs.js  | cjs         | Yes        | Yes         |
+| dist/defaultoptions.esm.js  | esm         | Yes        | Yes         |
+| dist/defaultoptions.js      | umd         | Yes        | Yes         |
 
 <!-- END -->
 

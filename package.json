@@ -1,25 +1,25 @@
 {
-  "name": "foo-bar",
-  "nameFull": "FooBar",
+  "name": "defaultoptions",
+  "nameReadable": "defaultOptions",
   "version": "0.0.0",
-  "description": "A foo-bar library",
+  "description": "A default options library",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/foo-bar.git"
+    "url": "git+https://github.com/victornpb/defaultoptions.git"
   },
   "bugs": {
-    "url": "https://github.com/username/foo-bar/issues"
+    "url": "https://github.com/victornpb/defaultoptions/issues"
   },
-  "homepage": "https://github.com/username/foo-bar",
-  "author": "username",
-  "main": "dist/foo-bar.cjs.js",
-  "module": "dist/foo-bar.esm.js",
-  "unpkg": "dist/foo-bar.js",
-  "globalVar": "FooBar",
+  "homepage": "https://github.com/victornpb/defaultoptions",
+  "author": "victornpb",
+  "main": "dist/defaultoptions.cjs.js",
+  "module": "dist/defaultoptions.esm.js",
+  "unpkg": "dist/defaultoptions.js",
+  "globalVar": "defaults",
   "scripts": {
     "start": "npm run watch",
     "build": "rollup -c",
@@ -34,8 +34,16 @@
     "dist"
   ],
   "keywords": [
-    "foo",
-    "bar"
+    "defaults",
+    "default",
+    "deep",
+    "recursive",
+    "extend",
+    "extends",
+    "options",
+    "parameters",
+    "arguments",
+    "inicialization"
   ],
   "sideEffects": false,
   "dependencies": {},
