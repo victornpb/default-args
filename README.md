@@ -10,6 +10,8 @@
 [![LICENSE](https://img.shields.io/github/license/victornpb/default-args?style=flat-square)](LICENSE)
 <!-- endbadge -->
 
+![carbon-3](https://user-images.githubusercontent.com/3372598/175796626-18513d8d-06ad-4cbc-a17d-5f67f7248e5a.png)
+
 A simple function for providing defaults to an options to argument. No dependencies, tiny amount of code.
 
 ## Usage
