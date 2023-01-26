@@ -14,6 +14,13 @@
 
 A simple function for providing defaults to an options to argument. No dependencies, tiny amount of code.
 
+default-args makes input validation simpler, by always ensuring you will have well defined object shape you can work with.
+
+It also prevents the inclusion of extraneous properties by only copying properties that are defined in the default options object. This ensures that the final object only contains the properties that are specified. This not only prevents unexpected behavior but also potential security vulnerabilities caused by the inclusion of extraneous properties.
+
+By using this package you also eliminate a class of vulnerability called [object prototype pollution](https://learn.snyk.io/lessons/prototype-pollution/javascript/) by correctly handling options.
+
+
 ## Usage
 
 ```js
